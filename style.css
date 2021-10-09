@@ -1,0 +1,49 @@
+.fa-camera {
+    color: #fff;
+    margin-right: 8px;
+    padding-top: 5px;
+    font-size: larger;
+    cursor: pointer;
+}
+.font-small {
+    font-size: 1.3rem;
+}
+.shadow{
+    box-shadow: 10px 5px 10px 5px #626161c7 !important;
+}
+
+ @media(min-width: 576px) {
+    .modal-dialog {
+        max-width: 800px;
+        margin: 1.75rem auto;
+    }
+}
+.fa-user-tie {
+    font-size: 100px;
+    color: #626161;
+    border: 10px solid #626161;
+    border-radius: 50%;
+    padding: 20px;
+}
+.form-control {
+    display: inline;
+    width: 90%;
+    border-top: none;
+    border-right:none ;
+    border-left:none ;
+    border-color: #007bff;
+    color: #007bff;
+    border-radius: 0;
+}
+.form-control:focus {
+    color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+    border-radius: 1px;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(#007bff / 25%);
+}
+.fa-user-tag , .fa-user-edit, .fa-envelope{
+    font-size: 30px;
+    color: #007bff;
+}
